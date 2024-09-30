@@ -5,7 +5,7 @@
 
 namespace GameAttach03
 {
-    public abstract class Character : IAttacker
+    public class Character : IAttacker
     {
         private string name;
         private int health ;
